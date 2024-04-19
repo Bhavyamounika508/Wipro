@@ -12,12 +12,12 @@ int main()
   for(i=0;i<SIZE;i++)
       scanf("%d",&a[i]);
 
-	printf("\nList is\n");
-	for(i=0;i<SIZE;i++)
+  printf("\nList is\n");
+  for(i=0;i<SIZE;i++)
 	   printf(" %d ",a[i]);
 
-	printf("\n\n");
-	return 0;
+  printf("\n\n");
+  return 0;
 }
 	  
 
