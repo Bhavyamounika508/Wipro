@@ -9,7 +9,7 @@ LDFLAGS = -o
 CFLAGS = -c -g 
 
 $(BIN)/app: $(OBJ)/main.o $(OBJ)/config.o
-        $(CC) $(LDFLAGS) $(BIN)/app $(OBJ)/main.o $(OBJ)/config.o
+       $(CC) $(LDFLAGS) $(BIN)/app $(OBJ)/main.o $(OBJ)/config.o
 
 $(OBJ)/main.o: $(SRC)/main.c 
         $(CC) $(CFLAGS) $(SRC)/main.c 
