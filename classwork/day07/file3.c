@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+int main()
+{
+    int a[3]={10,20,30};
+
+    int *ptr;
+
+    printf("\nArray format\n");
+    printf("\na[0]=%d",a[0]);
+    printf("\na[1]=%d",a[1]);
+    printf("\na[2]=%d",a[2]);
+
+    printf("\npointer notation\n");
+    printf("\na[0]=%d",*(a+0));
+    printf("\na[1]=%d",*(a+1));
+    printf("\na[2]=%d",*(a+2));
+
+    ptr=a;
+    
+    printf("\na[0]=%d=>using ptr",*ptr);
+
+    ptr++;
+    printf("\na[1]=%d=>using ptr",*ptr);
+
+    ptr++;
+    printf("\na[2]=%d=>using ptr",*ptr);
+
+    printf("\n\n");
+    return 0;
+}
