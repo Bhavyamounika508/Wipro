@@ -8,16 +8,16 @@ BIN = ./bin
 LDFLAGS = -o 
 CFLAGS = -c -g 
 
-$(BIN)/app: $(OBJ)/main.o $(OBJ)/config.o
-       $(CC) $(LDFLAGS) $(BIN)/app $(OBJ)/main.o $(OBJ)/config.o
+$(BIN)/app: $(OBJ)/main.o $(OBJ)/utility.o
+       $(CC) $(LDFLAGS) $(BIN)/app $(OBJ)/main.o $(OBJ)/utility.o
 
 $(OBJ)/main.o: $(SRC)/main.c 
-        $(CC) $(CFLAGS) $(SRC)/main.c 
+        $(CC) $(CFLAGS) $(SRC)/main.c -I $(INC)/
 		mv main.o $(OBJ)/ 
 
-$(OBJ)/config.o: $(SRC)/config.c 
-        $(CC) $(CFLAGS) $(SRC)/config.c 
-	    mv config.o $(OBJ)/
+$(OBJ)/utility.o: $(SRC)/utility.c 
+        $(CC) $(CFLAGS) $(SRC)/utility.c -I $(INC)/
+	    mv utility.o $(OBJ)/
 
 clean:
         rm -f $(BIN)/app 
