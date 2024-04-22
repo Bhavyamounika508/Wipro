@@ -1,3 +1,7 @@
+/*
+Print sum of even and sum of odd values between 1 to 50
+*/
+
 #include<stdio.h>
 int main()
 {

@@ -1,3 +1,7 @@
+/*
+Scan And Print the Employee Details*/
+
+
 #include<stdio.h>
 int main()
 {

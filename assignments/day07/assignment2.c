@@ -1,4 +1,8 @@
-#include<stdio.h>
+/*
+
+Write a simple calculator program using functions
+
+*/#include<stdio.h>
 int main()
 {
     int x,y,choice;

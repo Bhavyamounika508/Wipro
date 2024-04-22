@@ -1,3 +1,7 @@
+/*
+Find out the sum of series 3+33+333+3333+33333+333333
+*/
+
 #include<stdio.h>
 #include<math.h>
 int main()

@@ -1,3 +1,8 @@
+/*
+Print Series 1,2,4,8,16,32,64. given n=8
+*/
+
+
 #include<stdio.h>
 int main()
 {

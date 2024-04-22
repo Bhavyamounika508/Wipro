@@ -1,3 +1,9 @@
+/*
+
+Sort the array element in ascending order using ptr
+
+*/
+
 #include <stdio.h>
 
 void sort(int n, int* ptr)

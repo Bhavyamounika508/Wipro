@@ -1,3 +1,8 @@
+/*
+Print the table with user i/ps
+*/
+
+
 #include<stdio.h>
 int main()
 {

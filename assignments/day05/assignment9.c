@@ -1,3 +1,18 @@
+/*
+Write a c program to print alphabet triangle.
+
+Input: 5
+
+Output:
+
+    A
+   ABA
+  ABCBA
+ ABCDCBA
+ABCDEDCBA
+
+*/
+
 #include<stdio.h>
 int main()
 {
